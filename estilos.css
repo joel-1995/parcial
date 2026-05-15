@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+nav ul li {
+  display: inline;    /* Pone los <li> uno al lado del otro */
+  margin-right: 20px; /* Espacio entre los links */
+}
+nav ul li a:link {
+  color: blue;          /* Color de los links no visitados */
+  text-decoration: none; /* Quita el subrayado */
+}
+nav ul li a:visited {
+  color: purple;        /* Color de los links ya visitados */
+  text-decoration: none; /* Quita el subrayado */
+}
+nav ul li a:hover {
+  color: red;              /* Cambia el color al pasar el mouse */
+  text-decoration: underline; /* Subraya el link al pasar el mouse */
+}
+nav ul li a:active {
+  color: green;             /* Cambia el color mientras se hace clic */
+  text-decoration: underline; /* Subraya el link en el clic */
+}
+h1 {
+  color: blue;              /* Cambia el color del texto */
+  text-decoration: underline; /* Subraya el título */
+}
+h2{color: blueviolet;
+text-decoration: underline;}
