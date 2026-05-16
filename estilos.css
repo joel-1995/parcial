@@ -10,7 +10,7 @@ nav ul li a:link {
   text-decoration: none; /* Quita el subrayado */
 }
 nav ul li a:visited {
-  color: purple;        /* Color de los links ya visitados */
+  color: rgb(230, 218, 230);        /* Color de los links ya visitados */
   text-decoration: none; /* Quita el subrayado */
 }
 nav ul li a:hover {
@@ -27,3 +27,32 @@ h1 {
 }
 h2{color: blueviolet;
 text-decoration: underline;}
+body{
+    background-image: url("fondo.png");
+    background-size: cover;
+}
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;   
+  padding: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+}
+img{max-width: 100%;}
+.menu {
+  background-color: #8a34db; /* azul de fondo */
+  padding: 1rem;            /* espacio interno */
+}
+
+.menu ul {
+  list-style: none;         
+  margin: 0;
+  padding: 0;
+  display: flex;           
+  gap: 1rem;                
+}
+
+.menu a {
+  color: white;            
+  text-decoration: none;    
+  font-weight: bold;
+}
